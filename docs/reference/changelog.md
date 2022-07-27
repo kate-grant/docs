@@ -41,13 +41,13 @@ Bump acorn from 8.7.1 to 8.8.0 (dependabot)
 
 Add StdLib fns for Tuples
 
-Update/improve 'running against prod' doc 
+Update/improve 'running against prod' doc
 
-Switch Presence URL to dark-editor canvas 
+Switch Presence URL to dark-editor canvas
 
-Correct ngrok command in docs 
+Correct ngrok command in docs
 
-Switch client-side types to match backend types, pt 2 
+Switch client-side types to match backend types, pt 2
 
 Add Bytes::base64Decode_v1 which fails properly on invalid input
 
