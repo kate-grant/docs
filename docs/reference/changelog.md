@@ -81,10 +81,13 @@ old features.
 ## Stdlib improvements
 
 ## May 3, 2022:
+
 =======
+
 - Allow `HttpClient::basicAuth_v0` and `HttpClient::basicAuth_v1` to run in the
   editor ([#4147](https://github.com/darklang/dark/pull/4147))
->>>>>>> main
+
+  > > > > > > > main
 
 - Allow `Crypto::sha256_v0`, `Crypto::sha384_v0` to run in the editor
   ([#4146](https://github.com/darklang/dark/pull/4146))
@@ -329,8 +332,8 @@ users.
   an incorrect answer - it now returns a correct answer.
 
 - `String::split` would fail if the 2nd argument was `""` and the first argument
-  was a complex Unicode character, such as `String::split "👨‍❤️‍💋‍👨👩‍👩‍👧‍👦🏳️‍⚧️‍️🇵🇷" ""`. This
-  is now split correctly.
+  was a complex Unicode character, such as `String::split "👨‍❤️‍💋‍👨👩‍👩‍👧‍👦🏳️‍⚧️‍️🇵🇷" ""`.
+  This is now split correctly.
 
 - `String.trim`, `String::trimEnd` and `String::trimStart` worked incorrectly in
   some Unicode situations, they now work correctly.
