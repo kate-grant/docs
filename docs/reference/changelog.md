@@ -33,6 +33,62 @@ some other ways to avoid the problem.
 _The list below is organized by date discovered, to allow you know when new
 things have been added to the list since you last checked._
 
+## August 1, 2022:
+
+Make toplevel serialization output more obvious
+
+Bump acorn from 8.7.1 to 8.8.0 (dependabot)
+
+Add StdLib fns for Tuples
+
+Update/improve 'running against prod' doc 
+
+Switch Presence URL to dark-editor canvas 
+
+Correct ngrok command in docs 
+
+Switch client-side types to match backend types, pt 2 
+
+Add Bytes::base64Decode_v1 which fails properly on invalid input
+
+Remove admin flag from autocomplete
+
+Switch client-side types to match backend types, pt 1
+
+Include TAny case in client DType.decodeOld fn
+
+Include TFloat case in client's DType.decodeOld
+
+Change v1 api routes for non-OCamlTypes, non-ocamlCompatible responses
+
+Expose more internal staticassets fns for uploads
+
+Send more fn info to the client and refactor
+
+Better descriptions
+
+Allow non-string errors in Result::fromOption
+
+Allow admin fns for all admin canvases
+
+Fix analysis timezone offset bug
+
+64 bit serializers
+
+Start moving APIs over to the vanilla serializer
+
+Remove scripts/run-fsharp-benchmark
+
+Start of new types on the client
+
+Add testing for vanilla and ocamlcompatible serializers
+
+Bump moment from 2.29.3 to 2.29.4 (dependabot)
+
+Add more exclusions to shellcheck directory searching
+
+Make build work on m1/m2 macs
+
 ## May 3, 2022:
 
 We have switched all HTTP requests to the new backend.
